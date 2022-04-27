@@ -1,0 +1,2 @@
+# webcam-js
+safari design
