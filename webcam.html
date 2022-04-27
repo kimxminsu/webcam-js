@@ -1,0 +1,20 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<h2 align=center>Webcam</h2>
+<input class="w-btn w-btn-pink" type=button value="get Video" onclick="{getVideo()}">
+<input class="w-btn w-btn-gra1 w-btn-gra-anim" type=button value="get Pic" onclick="{takeSnapshot()}"><br>
+
+<div class="jb-box">
+    <!-- <video id="myVideo" width="400" height="300" style="border: 1px solid #ddd;"></video> -->
+    <video id="myVideo" style="border: 20px"></video>
+    <div class="jb-text"></div>
+</div>
+<div class="jb-box">
+    <!-- <video id="myVideo" width="400" height="300" style="border: 1px solid #ddd;"></video> -->
+    <canvas id="myCanvas" style="border: 20px"></canvas><br>
+    <div class="jb-text"></div>
+</div>
+<input class="input-text" type=number id="myInterval" value="3000"> 초 마다 자동으로 저장
+<input class="w-btn w-btn-pink" type=button value="Auto" onclick="{takeAuto()}">
+
+<script src="webcam.js"></script>
